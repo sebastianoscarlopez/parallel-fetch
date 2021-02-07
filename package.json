@@ -1,0 +1,32 @@
+{
+  "name": "parallel-fetch",
+  "version": "1.0.0",
+  "description": "download csv from multi fetch api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianoscarlopez/parallel-fetch.git"
+  },
+  "keywords": [
+    "parallel",
+    "fetch",
+    "csv",
+    "download"
+  ],
+  "author": "sebastian oscar lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianoscarlopez/parallel-fetch/issues"
+  },
+  "homepage": "https://github.com/sebastianoscarlopez/parallel-fetch#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
